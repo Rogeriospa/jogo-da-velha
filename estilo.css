@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+}
+
+/*classe .quadrado */
+.quadrado{
+
+    /*Atributos da classe quadrado*/
+
+    /*Alinhamento dos texto, quadrado etc*/
+    text-align: center;
+
+    /*Tamanho dos traço, letras no interior dos quadrados*/
+    width: 50px;
+
+    /*Cor de fundo*/
+    background: #eee;
+
+    /*Para organizar os elementos no html*/
+    display: inline-block;
+
+    /*Tamanho da margem interior*/
+    padding: 20px;
+
+    /*Tamanho da fonte*/
+    font-size: 60px;
+
+    /*Tamanho da margem*/
+    margin: 5px;
+
+    /*Faz com que o cursor vire uma mãozinha*/
+    cursor: pointer;
+
+    /*Muda a cor do item no interior do quadrado*/
+    color: #eee;
+}
+
+.jogador, .vencedor {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/*Atributos para tag*/
+button {
+    margin-top: 10px;
+    width: 100;
+    height: 30;
+    background: #eee;
+    cursor: pointer;
+}
